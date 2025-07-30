@@ -1,0 +1,15 @@
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\bin\Debug\net9.0-windows\IngenieriaIndustrialApp.exe
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\bin\Debug\net9.0-windows\IngenieriaIndustrialApp.deps.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\bin\Debug\net9.0-windows\IngenieriaIndustrialApp.runtimeconfig.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\bin\Debug\net9.0-windows\IngenieriaIndustrialApp.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\bin\Debug\net9.0-windows\IngenieriaIndustrialApp.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.AssemblyInfoInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.AssemblyInfo.vb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.vbproj.CoreCompileInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.sourcelink.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\refint\IngenieriaIndustrialApp.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\IngenieriaIndustrialApp.genruntimeconfig.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\IngenieriaIndustrialApp\obj\Debug\net9.0-windows\ref\IngenieriaIndustrialApp.dll
