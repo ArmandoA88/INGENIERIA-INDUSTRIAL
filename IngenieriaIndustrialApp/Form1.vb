@@ -827,15 +827,13 @@ Public Class Form1
     ' ===== MÉTODOS DE EVENTOS =====
     Private Sub AbrirCalculadoraTiempos(sender As Object, e As EventArgs)
         Try
-            ' Intentar abrir la calculadora de tiempos existente
-            Process.Start("dotnet", "run --project ../CalculadoraVB")
+            ' Crear y mostrar la calculadora directamente
+            Dim calculadoraForm As New FormCalculadoraTiempos()
+            calculadoraForm.Show()
         Catch ex As Exception
-            MessageBox.Show("Calculadora de Estudio de Tiempos" & vbCrLf & vbCrLf &
-                          "Esta herramienta permite calcular tiempos estándar usando el método Westinghouse." & vbCrLf &
-                          "Incluye factor de calificación, suplementos y cálculo de productividad." & vbCrLf & vbCrLf &
-                          "Estado: ✅ Disponible" & vbCrLf &
-                          "Para ejecutar: dotnet run --project ../CalculadoraVB",
-                          "Calculadora de Estudio de Tiempos", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Error al abrir la calculadora:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Calculadora de Estudio de Tiempos", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
 
