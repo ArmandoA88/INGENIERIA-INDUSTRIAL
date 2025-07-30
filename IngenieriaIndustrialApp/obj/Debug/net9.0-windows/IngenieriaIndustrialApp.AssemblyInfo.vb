@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("IngenieriaIndustrialApp"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1902e948e9082da6a829434c56d7c004da72a003"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3811bd28b77bb7926d335fec49ddf0eddbfcfa9b"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("IngenieriaIndustrialApp"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("IngenieriaIndustrialApp"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

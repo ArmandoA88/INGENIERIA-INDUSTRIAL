@@ -73,18 +73,24 @@
 
 ## 🚧 EN DESARROLLO / POR COMPLETAR
 
+### 🧮 **Calculadoras Completadas**
+- ✅ **Calculadora de Productividad - COMPLETADA**
+  - ✅ Productividad laboral (unidades/horas-hombre)
+  - ✅ Productividad de materiales (unidades/kg)
+  - ✅ Productividad de maquinaria (unidades/horas-máquina)
+  - ✅ Eficiencia global (OEE) con indicadores visuales
+  - ✅ Resumen general y generador de reportes
+  - ✅ Sistema de ayuda integrado
+
+- ✅ **Calculadora de Inventarios (EOQ) - COMPLETADA**
+  - ✅ Cantidad económica de pedido (EOQ)
+  - ✅ Punto de reorden con stock de seguridad
+  - ✅ Análisis de costos completo
+  - ✅ Análisis de sensibilidad
+  - ✅ Niveles de servicio configurables (90%-99.9%)
+  - ✅ Generador de reportes con recomendaciones
+
 ### 🧮 **Calculadoras Pendientes**
-- 🚧 **Calculadora de Productividad**
-  - Productividad laboral, de materiales, maquinaria
-  - Eficiencia global (OEE)
-  - Métricas de rendimiento
-
-- 🚧 **Calculadora de Inventarios (EOQ)**
-  - Cantidad económica de pedido
-  - Punto de reorden
-  - Stock de seguridad
-  - Costos de inventario
-
 - 🚧 **Calculadora de Control de Calidad**
   - Límites de control (UCL, LCL)
   - Índices de capacidad (Cp, Cpk)
@@ -177,19 +183,19 @@
 
 ## 📊 ESTADÍSTICAS DEL PROYECTO
 
-### **Archivos Creados**: 16
+### **Archivos Creados**: 18
 - 📄 Documentación: 8 archivos
-- 💻 Código fuente: 5 archivos
+- 💻 Código fuente: 7 archivos
 - 🔧 Configuración: 3 archivos
 
-### **Líneas de Código**: ~2000+
-- 🔵 Visual Basic .NET: ~1300 líneas
+### **Líneas de Código**: ~3500+
+- 🔵 Visual Basic .NET: ~2800 líneas
 - 🟢 C#: ~400 líneas
 - 📝 Markdown: ~300 líneas
 
 ### **Funcionalidades Implementadas**: 
-- ✅ **Completadas**: 1 calculadora completa + landing page
-- 🚧 **En desarrollo**: 12 herramientas planificadas
+- ✅ **Completadas**: 3 calculadoras completas + landing page integrado
+- 🚧 **En desarrollo**: 10 herramientas planificadas
 - 📋 **Documentadas**: 5 secciones completas
 
 ---

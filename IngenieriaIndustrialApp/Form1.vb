@@ -847,25 +847,27 @@ Public Class Form1
     End Sub
 
     Private Sub AbrirCalculadoraProductividad(sender As Object, e As EventArgs)
-        MessageBox.Show("Calculadora de Productividad" & vbCrLf & vbCrLf &
-                      "Esta herramienta permite calcular diferentes métricas de productividad:" & vbCrLf &
-                      "• Productividad laboral" & vbCrLf &
-                      "• Productividad de materiales" & vbCrLf &
-                      "• Productividad de maquinaria" & vbCrLf &
-                      "• Eficiencia global (OEE)" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Calculadora de Productividad", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar la calculadora de productividad directamente
+            Dim calculadoraForm As New FormCalculadoraProductividad()
+            calculadoraForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir la calculadora:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Calculadora de Productividad", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirCalculadoraInventarios(sender As Object, e As EventArgs)
-        MessageBox.Show("Calculadora de Inventarios (EOQ)" & vbCrLf & vbCrLf &
-                      "Esta herramienta permite calcular:" & vbCrLf &
-                      "• Cantidad económica de pedido (EOQ)" & vbCrLf &
-                      "• Punto de reorden" & vbCrLf &
-                      "• Stock de seguridad" & vbCrLf &
-                      "• Costos de inventario" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Calculadora de Inventarios", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar la calculadora de inventarios directamente
+            Dim calculadoraForm As New FormCalculadoraInventarios()
+            calculadoraForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir la calculadora:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Calculadora de Inventarios", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirCalculadoraCalidad(sender As Object, e As EventArgs)
