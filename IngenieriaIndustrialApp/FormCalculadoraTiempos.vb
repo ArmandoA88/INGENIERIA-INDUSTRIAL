@@ -24,7 +24,7 @@ Public Class FormCalculadoraTiempos
     Private Sub InitializeComponent()
         ' Configuración inicial del formulario
         Me.Text = "Calculadora de Estudio de Tiempos - Ingeniería Industrial"
-        Me.Size = New Size(800, 600)
+        Me.Size = New Size(900, 600)
         Me.StartPosition = FormStartPosition.CenterScreen
         Me.FormBorderStyle = FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
@@ -111,7 +111,7 @@ Public Class FormCalculadoraTiempos
         ' === SECCIÓN 2: FACTOR DE CALIFICACIÓN ===
         Dim gbCalificacion As New GroupBox With {
             .Text = "2. Factor de Calificación",
-            .Size = New Size(350, 120),
+            .Size = New Size(450, 140),
             .Location = New Point(20, 270)
         }
         panelPrincipal.Controls.Add(gbCalificacion)
@@ -119,14 +119,15 @@ Public Class FormCalculadoraTiempos
         ' Método Westinghouse
         Dim lblHabilidad As New Label With {
             .Text = "Habilidad:",
-            .Location = New Point(10, 25)
+            .Location = New Point(10, 25),
+            .Size = New Size(65, 20)
         }
         gbCalificacion.Controls.Add(lblHabilidad)
 
         Dim cmbHabilidad As New ComboBox With {
             .Name = "cmbHabilidad",
-            .Size = New Size(120, 25),
-            .Location = New Point(80, 22),
+            .Size = New Size(140, 25),
+            .Location = New Point(80, 25),
             .DropDownStyle = ComboBoxStyle.DropDownList
         }
         cmbHabilidad.Items.AddRange({"Superior (+15%)", "Excelente (+11%)", "Buena (+6%)", "Promedio (0%)", "Regular (-10%)", "Deficiente (-16%)"})
@@ -135,14 +136,15 @@ Public Class FormCalculadoraTiempos
 
         Dim lblEsfuerzo As New Label With {
             .Text = "Esfuerzo:",
-            .Location = New Point(10, 55)
+            .Location = New Point(10, 55),
+            .Size = New Size(65, 20)
         }
         gbCalificacion.Controls.Add(lblEsfuerzo)
 
         Dim cmbEsfuerzo As New ComboBox With {
             .Name = "cmbEsfuerzo",
-            .Size = New Size(120, 25),
-            .Location = New Point(80, 52),
+            .Size = New Size(140, 25),
+            .Location = New Point(80, 55),
             .DropDownStyle = ComboBoxStyle.DropDownList
         }
         cmbEsfuerzo.Items.AddRange({"Excesivo (+13%)", "Excelente (+10%)", "Bueno (+5%)", "Promedio (0%)", "Regular (-4%)", "Deficiente (-8%)"})
@@ -151,14 +153,15 @@ Public Class FormCalculadoraTiempos
 
         Dim lblCondiciones As New Label With {
             .Text = "Condiciones:",
-            .Location = New Point(210, 25)
+            .Location = New Point(230, 25),
+            .Size = New Size(75, 20)
         }
         gbCalificacion.Controls.Add(lblCondiciones)
 
         Dim cmbCondiciones As New ComboBox With {
             .Name = "cmbCondiciones",
-            .Size = New Size(120, 25),
-            .Location = New Point(210, 22),
+            .Size = New Size(140, 25),
+            .Location = New Point(310, 25),
             .DropDownStyle = ComboBoxStyle.DropDownList
         }
         cmbCondiciones.Items.AddRange({"Ideales (+6%)", "Excelentes (+4%)", "Buenas (+2%)", "Promedio (0%)", "Regulares (-3%)", "Deficientes (-7%)"})
@@ -167,14 +170,15 @@ Public Class FormCalculadoraTiempos
 
         Dim lblConsistencia As New Label With {
             .Text = "Consistencia:",
-            .Location = New Point(210, 55)
+            .Location = New Point(230, 55),
+            .Size = New Size(75, 20)
         }
         gbCalificacion.Controls.Add(lblConsistencia)
 
         Dim cmbConsistencia As New ComboBox With {
             .Name = "cmbConsistencia",
-            .Size = New Size(120, 25),
-            .Location = New Point(210, 52),
+            .Size = New Size(140, 25),
+            .Location = New Point(310, 55),
             .DropDownStyle = ComboBoxStyle.DropDownList
         }
         cmbConsistencia.Items.AddRange({"Perfecta (+4%)", "Excelente (+3%)", "Buena (+1%)", "Promedio (0%)", "Regular (-2%)", "Deficiente (-4%)"})
@@ -185,7 +189,8 @@ Public Class FormCalculadoraTiempos
             .Name = "lblFactorTotal",
             .Text = "Factor Total: 1.00",
             .Font = New Font("Arial", 10, FontStyle.Bold),
-            .Location = New Point(10, 85)
+            .Location = New Point(10, 90),
+            .Size = New Size(200, 20)
         }
         gbCalificacion.Controls.Add(lblFactorTotal)
 
@@ -193,7 +198,7 @@ Public Class FormCalculadoraTiempos
         Dim gbSuplementos As New GroupBox With {
             .Text = "3. Suplementos (%)",
             .Size = New Size(350, 100),
-            .Location = New Point(20, 400)
+            .Location = New Point(20, 420)
         }
         panelPrincipal.Controls.Add(gbSuplementos)
 
@@ -297,47 +302,50 @@ Public Class FormCalculadoraTiempos
         ' === SECCIÓN 5: INFORMACIÓN ADICIONAL ===
         Dim gbInfo As New GroupBox With {
             .Text = "5. Información del Estudio",
-            .Size = New Size(350, 120),
-            .Location = New Point(400, 250)
+            .Size = New Size(350, 140),
+            .Location = New Point(480, 250)
         }
         panelPrincipal.Controls.Add(gbInfo)
 
         Dim lblOperacion As New Label With {
             .Text = "Operación:",
-            .Location = New Point(10, 25)
+            .Location = New Point(10, 25),
+            .Size = New Size(65, 20)
         }
         gbInfo.Controls.Add(lblOperacion)
 
         Dim txtOperacion As New TextBox With {
             .Name = "txtOperacion",
             .Size = New Size(200, 25),
-            .Location = New Point(80, 22)
+            .Location = New Point(80, 25)
         }
         gbInfo.Controls.Add(txtOperacion)
 
         Dim lblOperador As New Label With {
             .Text = "Operador:",
-            .Location = New Point(10, 55)
+            .Location = New Point(10, 55),
+            .Size = New Size(65, 20)
         }
         gbInfo.Controls.Add(lblOperador)
 
         Dim txtOperador As New TextBox With {
             .Name = "txtOperador",
             .Size = New Size(200, 25),
-            .Location = New Point(80, 52)
+            .Location = New Point(80, 55)
         }
         gbInfo.Controls.Add(txtOperador)
 
         Dim lblFecha As New Label With {
             .Text = "Fecha:",
-            .Location = New Point(10, 85)
+            .Location = New Point(10, 85),
+            .Size = New Size(65, 20)
         }
         gbInfo.Controls.Add(lblFecha)
 
         Dim dtpFecha As New DateTimePicker With {
             .Name = "dtpFecha",
             .Size = New Size(200, 25),
-            .Location = New Point(80, 82),
+            .Location = New Point(80, 85),
             .Value = DateTime.Now
         }
         gbInfo.Controls.Add(dtpFecha)
@@ -346,8 +354,8 @@ Public Class FormCalculadoraTiempos
         Dim btnNuevo As New Button With {
             .Name = "btnNuevo",
             .Text = "Nuevo Estudio",
-            .Size = New Size(120, 35),
-            .Location = New Point(400, 380),
+            .Size = New Size(110, 35),
+            .Location = New Point(400, 410),
             .BackColor = Color.DarkGreen,
             .ForeColor = Color.White
         }
@@ -356,16 +364,16 @@ Public Class FormCalculadoraTiempos
         Dim btnAyuda As New Button With {
             .Name = "btnAyuda",
             .Text = "Ayuda",
-            .Size = New Size(120, 35),
-            .Location = New Point(530, 380)
+            .Size = New Size(110, 35),
+            .Location = New Point(520, 410)
         }
         panelPrincipal.Controls.Add(btnAyuda)
 
         Dim btnCerrar As New Button With {
             .Name = "btnCerrar",
             .Text = "Cerrar",
-            .Size = New Size(120, 35),
-            .Location = New Point(630, 380),
+            .Size = New Size(110, 35),
+            .Location = New Point(640, 410),
             .BackColor = Color.Red,
             .ForeColor = Color.White
         }

@@ -36,7 +36,7 @@ Public Class Form1
 
         ' === HEADER PRINCIPAL ===
         Dim lblTituloPrincipal As New Label With {
-            .Text = "INGENIERÍA INDUSTRIAL",
+            .Text = "INGENIERO INDUSTRIAL",
             .Font = New Font("Arial", 24, FontStyle.Bold),
             .ForeColor = Color.DarkBlue,
             .AutoSize = True,
@@ -45,7 +45,7 @@ Public Class Form1
         panelPrincipal.Controls.Add(lblTituloPrincipal)
 
         Dim lblSubtitulo As New Label With {
-            .Text = "Suite Completa de Herramientas y Recursos",
+            .Text = "Suite completa de herramientas y recursos creada por Arratia Consulting Engineers",
             .Font = New Font("Arial", 14, FontStyle.Italic),
             .ForeColor = Color.DarkSlateGray,
             .AutoSize = True,
@@ -56,28 +56,28 @@ Public Class Form1
         ' Línea separadora
         Dim separador As New Panel With {
             .Size = New Size(1100, 3),
-            .Location = New Point(20, 100),
+            .Location = New Point(20, 110),
             .BackColor = Color.DarkBlue
         }
         panelPrincipal.Controls.Add(separador)
 
         ' === SECCIÓN 1: HERRAMIENTAS ===
-        CrearSeccionHerramientas(panelPrincipal, 120)
+        CrearSeccionHerramientas(panelPrincipal, 140)
 
         ' === SECCIÓN 2: METODOLOGÍAS ===
-        CrearSeccionMetodologias(panelPrincipal, 320)
+        CrearSeccionMetodologias(panelPrincipal, 380)
 
         ' === SECCIÓN 3: PROCESOS ===
-        CrearSeccionProcesos(panelPrincipal, 520)
+        CrearSeccionProcesos(panelPrincipal, 620)
 
         ' === SECCIÓN 4: CASOS DE ESTUDIO ===
-        CrearSeccionCasosEstudio(panelPrincipal, 720)
+        CrearSeccionCasosEstudio(panelPrincipal, 860)
 
         ' === SECCIÓN 5: RECURSOS ===
-        CrearSeccionRecursos(panelPrincipal, 920)
+        CrearSeccionRecursos(panelPrincipal, 1100)
 
         ' === FOOTER ===
-        CrearFooter(panelPrincipal, 1120)
+        CrearFooter(panelPrincipal, 1340)
     End Sub
 
     ' ===== SECCIÓN HERRAMIENTAS =====
@@ -788,7 +788,7 @@ Public Class Form1
             .Font = New Font("Arial", 12, FontStyle.Bold),
             .ForeColor = Color.White,
             .AutoSize = True,
-            .Location = New Point(20, 20)
+            .Location = New Point(20, 15)
         }
         panelFooter.Controls.Add(lblFooter)
 
@@ -797,9 +797,18 @@ Public Class Form1
             .Font = New Font("Arial", 10, FontStyle.Italic),
             .ForeColor = Color.LightGray,
             .AutoSize = True,
-            .Location = New Point(20, 45)
+            .Location = New Point(20, 35)
         }
         panelFooter.Controls.Add(lblVersion)
+
+        Dim lblInstituto As New Label With {
+            .Text = "Instituto Tecnológico Laguna",
+            .Font = New Font("Arial", 10, FontStyle.Italic),
+            .ForeColor = Color.LightGray,
+            .AutoSize = True,
+            .Location = New Point(20, 55)
+        }
+        panelFooter.Controls.Add(lblInstituto)
 
         ' Botones de acción del footer
         Dim btnAcercaDe As New Button With {
