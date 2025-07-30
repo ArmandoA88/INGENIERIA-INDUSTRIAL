@@ -57,6 +57,17 @@ build/
 dist/
 out/
 
+# .NET build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+publish/
+
 # Archivos de caché
 .cache/
 .parcel-cache/
