@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraTiempos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d3b8f7a39854d5e3492af10af368f472ae06d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3811bd28b77bb7926d335fec49ddf0eddbfcfa9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraTiempos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraTiempos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -98,22 +98,35 @@
   - Análisis de variabilidad
 
 ### 📈 **Gráficos y Diagramas**
-- 🚧 **Generador de Diagramas de Flujo**
-  - Símbolos estándar ANSI
-  - Conexiones automáticas
-  - Exportación a PDF/PNG
+- ✅ **Generador de Diagramas de Flujo - COMPLETADO**
+  - ✅ Símbolos estándar ANSI (Inicio, Proceso, Decisión, Documento, Almacenamiento, Conector)
+  - ✅ Interfaz drag & drop para crear diagramas
+  - ✅ Edición de texto en elementos
+  - ✅ Exportación a PNG con timestamp
+  - ✅ Sistema de ayuda integrado
+  - ✅ Colores diferenciados por tipo de elemento
+
+- ✅ **Generador de Gráfico de Pareto - COMPLETADO**
+  - ✅ Análisis 80/20 automático
+  - ✅ Ordenamiento automático de datos
+  - ✅ Línea de porcentaje acumulado
+  - ✅ Identificación visual de "pocos vitales" vs "muchos triviales"
+  - ✅ Datos de ejemplo precargados
+  - ✅ Exportación a PNG y CSV
+  - ✅ Análisis estadístico integrado
+
+- ✅ **Generador de Gráficos de Control - COMPLETADO**
+  - ✅ Múltiples tipos: X-R, X-S, X-mR, p, np, c, u
+  - ✅ Cálculo automático de límites de control (LSC, LC, LIC)
+  - ✅ Índices de capacidad (Cp, Cpk) con especificaciones
+  - ✅ Detección visual de puntos fuera de control
+  - ✅ Datos de ejemplo para demostración
+  - ✅ Exportación completa de datos y gráficos
+  - ✅ Interpretación automática de resultados
 
 - 🚧 **Generador de Diagrama Ishikawa**
   - 6M (Método, Máquina, Material, etc.)
   - Personalización de categorías
-
-- 🚧 **Generador de Gráfico de Pareto**
-  - Análisis 80/20
-  - Ordenamiento automático
-
-- 🚧 **Generador de Gráficos de Control**
-  - Gráficos X-R, X-S, p, np, c, u
-  - Detección de patrones
 
 ### 🎮 **Simuladores**
 - 🚧 **Simulador de Teoría de Colas**
@@ -183,20 +196,25 @@
 
 ## 📊 ESTADÍSTICAS DEL PROYECTO
 
-### **Archivos Creados**: 18
+### **Archivos Creados**: 21
 - 📄 Documentación: 8 archivos
-- 💻 Código fuente: 7 archivos
+- 💻 Código fuente: 10 archivos
 - 🔧 Configuración: 3 archivos
 
-### **Líneas de Código**: ~3500+
-- 🔵 Visual Basic .NET: ~2800 líneas
+### **Líneas de Código**: ~6500+
+- 🔵 Visual Basic .NET: ~5800 líneas
 - 🟢 C#: ~400 líneas
 - 📝 Markdown: ~300 líneas
 
 ### **Funcionalidades Implementadas**: 
-- ✅ **Completadas**: 3 calculadoras completas + landing page integrado
-- 🚧 **En desarrollo**: 10 herramientas planificadas
+- ✅ **Completadas**: 6 herramientas completas (3 calculadoras + 3 generadores gráficos) + landing page integrado
+- 🚧 **En desarrollo**: 7 herramientas planificadas
 - 📋 **Documentadas**: 5 secciones completas
+
+### **Herramientas Gráficas Nuevas**:
+- ✅ **FormDiagramaFlujo.vb** (~600 líneas) - Generador completo de diagramas de flujo
+- ✅ **FormGraficoPareto.vb** (~500 líneas) - Análisis 80/20 con visualización
+- ✅ **FormGraficoControl.vb** (~700 líneas) - Control estadístico de procesos
 
 ---
 

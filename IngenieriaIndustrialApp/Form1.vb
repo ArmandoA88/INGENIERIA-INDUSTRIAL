@@ -882,14 +882,15 @@ Public Class Form1
     End Sub
 
     Private Sub AbrirDiagramaFlujo(sender As Object, e As EventArgs)
-        MessageBox.Show("Generador de Diagramas de Flujo" & vbCrLf & vbCrLf &
-                      "Herramienta para crear diagramas de flujo de procesos:" & vbCrLf &
-                      "• Símbolos estándar ANSI" & vbCrLf &
-                      "• Conexiones automáticas" & vbCrLf &
-                      "• Exportación a PDF/PNG" & vbCrLf &
-                      "• Plantillas predefinidas" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Diagrama de Flujo", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el generador de diagramas de flujo directamente
+            Dim diagramaForm As New FormDiagramaFlujo()
+            diagramaForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el generador de diagramas:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Diagrama de Flujo", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirDiagramaIshikawa(sender As Object, e As EventArgs)
@@ -903,23 +904,27 @@ Public Class Form1
     End Sub
 
     Private Sub AbrirGraficoPareto(sender As Object, e As EventArgs)
-        MessageBox.Show("Generador de Gráfico de Pareto" & vbCrLf & vbCrLf &
-                      "Herramienta para análisis 80/20:" & vbCrLf &
-                      "• Ordenamiento automático" & vbCrLf &
-                      "• Línea de porcentaje acumulado" & vbCrLf &
-                      "• Identificación de causas vitales" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Gráfico de Pareto", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el generador de gráficos de Pareto directamente
+            Dim paretoForm As New FormGraficoPareto()
+            paretoForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el generador de gráficos:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Gráfico de Pareto", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirGraficoControl(sender As Object, e As EventArgs)
-        MessageBox.Show("Generador de Gráficos de Control" & vbCrLf & vbCrLf &
-                      "Herramienta para control estadístico:" & vbCrLf &
-                      "• Gráficos X-R, X-S" & vbCrLf &
-                      "• Gráficos p, np, c, u" & vbCrLf &
-                      "• Detección de patrones" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Gráficos de Control", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el generador de gráficos de control directamente
+            Dim controlForm As New FormGraficoControl()
+            controlForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el generador de gráficos:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Gráficos de Control", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirSimulacionColas(sender As Object, e As EventArgs)
