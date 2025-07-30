@@ -128,18 +128,30 @@
   - 6M (Método, Máquina, Material, etc.)
   - Personalización de categorías
 
-### 🎮 **Simuladores**
-- 🚧 **Simulador de Teoría de Colas**
-  - Modelos M/M/1, M/M/c
-  - Análisis de tiempos de espera
+### 🎮 **Simuladores - COMPLETADOS**
+- ✅ **Simulador de Teoría de Colas - COMPLETADO**
+  - ✅ Modelos M/M/1, M/M/c, M/M/c/K implementados
+  - ✅ Análisis completo de tiempos de espera y utilización
+  - ✅ Optimización automática del número de servidores
+  - ✅ Gráficos de comportamiento del sistema en tiempo real
+  - ✅ Simulación Monte Carlo con distribuciones exponenciales
+  - ✅ Exportación de resultados y recomendaciones
 
-- 🚧 **Simulador de Línea de Producción**
-  - Balance de línea
-  - Identificación de cuellos de botella
+- ✅ **Simulador de Línea de Producción - COMPLETADO**
+  - ✅ Balance de línea automático con cálculo de eficiencia
+  - ✅ Identificación visual de cuellos de botella
+  - ✅ Análisis de capacidad y utilización por estación
+  - ✅ Simulación de flujo de materiales con inventario WIP
+  - ✅ Gráficos de tiempos de ciclo y balance de carga
+  - ✅ Recomendaciones de optimización automáticas
 
-- 🚧 **Simulador de Gestión de Inventario**
-  - Modelos de demanda variable
-  - Optimización de políticas
+- ✅ **Simulador de Gestión de Inventario - COMPLETADO**
+  - ✅ Políticas (Q,R), (S,s), (T,S) completamente implementadas
+  - ✅ Simulación de demanda estocástica con distribución normal
+  - ✅ Análisis completo de costos (ordenar, mantener, faltante)
+  - ✅ Optimización automática de parámetros EOQ
+  - ✅ Cálculo de stock de seguridad y niveles de servicio
+  - ✅ Gráficos de evolución de inventario y métricas
 
 ### 📋 **Generadores**
 - 🚧 **Generador de Reportes Automáticos**
@@ -196,25 +208,28 @@
 
 ## 📊 ESTADÍSTICAS DEL PROYECTO
 
-### **Archivos Creados**: 21
+### **Archivos Creados**: 24
 - 📄 Documentación: 8 archivos
-- 💻 Código fuente: 10 archivos
+- 💻 Código fuente: 13 archivos
 - 🔧 Configuración: 3 archivos
 
-### **Líneas de Código**: ~6500+
-- 🔵 Visual Basic .NET: ~5800 líneas
+### **Líneas de Código**: ~12,000+
+- 🔵 Visual Basic .NET: ~11,200 líneas
 - 🟢 C#: ~400 líneas
-- 📝 Markdown: ~300 líneas
+- 📝 Markdown: ~400 líneas
 
 ### **Funcionalidades Implementadas**: 
-- ✅ **Completadas**: 6 herramientas completas (3 calculadoras + 3 generadores gráficos) + landing page integrado
-- 🚧 **En desarrollo**: 7 herramientas planificadas
+- ✅ **Completadas**: 9 herramientas completas (3 calculadoras + 3 generadores gráficos + 3 simuladores) + landing page integrado
+- 🚧 **En desarrollo**: 4 herramientas planificadas
 - 📋 **Documentadas**: 5 secciones completas
 
-### **Herramientas Gráficas Nuevas**:
+### **Herramientas Completadas**:
 - ✅ **FormDiagramaFlujo.vb** (~600 líneas) - Generador completo de diagramas de flujo
 - ✅ **FormGraficoPareto.vb** (~500 líneas) - Análisis 80/20 con visualización
 - ✅ **FormGraficoControl.vb** (~700 líneas) - Control estadístico de procesos
+- ✅ **FormSimuladorColas.vb** (~1,800 líneas) - Simulador completo de teoría de colas
+- ✅ **FormSimuladorProduccion.vb** (~1,600 líneas) - Simulador de línea de producción
+- ✅ **FormSimuladorInventario.vb** (~1,400 líneas) - Simulador de gestión de inventario
 
 ---
 

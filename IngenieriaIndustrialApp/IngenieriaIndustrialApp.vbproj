@@ -6,6 +6,7 @@
     <RootNamespace>IngenieriaIndustrialApp</RootNamespace>
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
+    <OptionStrict>Off</OptionStrict>
   </PropertyGroup>
 
   <ItemGroup>

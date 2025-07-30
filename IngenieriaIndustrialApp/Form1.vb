@@ -928,33 +928,39 @@ Public Class Form1
     End Sub
 
     Private Sub AbrirSimulacionColas(sender As Object, e As EventArgs)
-        MessageBox.Show("Simulador de Teoría de Colas" & vbCrLf & vbCrLf &
-                      "Simulación de sistemas de espera:" & vbCrLf &
-                      "• Modelos M/M/1, M/M/c" & vbCrLf &
-                      "• Análisis de tiempos de espera" & vbCrLf &
-                      "• Optimización de servidores" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Simulación de Colas", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el simulador de teoría de colas directamente
+            Dim simuladorForm As New FormSimuladorColas()
+            simuladorForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el simulador:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Simulador de Teoría de Colas", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirSimulacionProduccion(sender As Object, e As EventArgs)
-        MessageBox.Show("Simulador de Línea de Producción" & vbCrLf & vbCrLf &
-                      "Simulación de procesos productivos:" & vbCrLf &
-                      "• Balance de línea" & vbCrLf &
-                      "• Identificación de cuellos de botella" & vbCrLf &
-                      "• Análisis de capacidad" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Simulación de Producción", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el simulador de línea de producción directamente
+            Dim simuladorForm As New FormSimuladorProduccion()
+            simuladorForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el simulador:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Simulador de Línea de Producción", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirSimulacionInventario(sender As Object, e As EventArgs)
-        MessageBox.Show("Simulador de Gestión de Inventario" & vbCrLf & vbCrLf &
-                      "Simulación de políticas de inventario:" & vbCrLf &
-                      "• Modelos de demanda variable" & vbCrLf &
-                      "• Análisis de costos" & vbCrLf &
-                      "• Optimización de políticas" & vbCrLf & vbCrLf &
-                      "Estado: 🚧 En desarrollo",
-                      "Simulación de Inventario", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Try
+            ' Crear y mostrar el simulador de gestión de inventario directamente
+            Dim simuladorForm As New FormSimuladorInventario()
+            simuladorForm.Show()
+        Catch ex As Exception
+            MessageBox.Show("Error al abrir el simulador:" & vbCrLf & vbCrLf &
+                          ex.Message,
+                          "Error - Simulador de Gestión de Inventario", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub AbrirGeneradorReportes(sender As Object, e As EventArgs)
