@@ -24,7 +24,7 @@ Este repositorio contiene una colección completa de documentación sobre proces
 
 ### 🛠️ Herramientas
 - **[Gráficos y Diagramas](./herramientas/graficos-y-diagramas/)** - Herramientas de visualización
-- **[Calculadoras](./herramientas/calculadoras/)** - Calculadoras especializadas
+- **[Calculadoras](./herramientas/calculadoras/)** - Calculadoras programadas en Visual Basic
 - **[Plantillas](./herramientas/plantillas/)** - Plantillas y formatos
 - **[Listas de Verificación](./herramientas/listas-verificacion/)** - Checklists y guías rápidas
 
