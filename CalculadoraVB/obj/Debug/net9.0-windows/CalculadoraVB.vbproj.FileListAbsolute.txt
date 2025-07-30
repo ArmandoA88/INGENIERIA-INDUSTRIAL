@@ -1,0 +1,15 @@
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.AssemblyInfoInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.AssemblyInfo.vb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.vbproj.CoreCompileInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.sourcelink.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\bin\Debug\net9.0-windows\CalculadoraVB.exe
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\bin\Debug\net9.0-windows\CalculadoraVB.deps.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\bin\Debug\net9.0-windows\CalculadoraVB.runtimeconfig.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\bin\Debug\net9.0-windows\CalculadoraVB.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\bin\Debug\net9.0-windows\CalculadoraVB.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\refint\CalculadoraVB.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\CalculadoraVB.genruntimeconfig.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraVB\obj\Debug\net9.0-windows\ref\CalculadoraVB.dll

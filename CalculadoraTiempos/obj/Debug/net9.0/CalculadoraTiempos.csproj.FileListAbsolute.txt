@@ -1,0 +1,15 @@
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\bin\Debug\net9.0\CalculadoraTiempos.exe
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\bin\Debug\net9.0\CalculadoraTiempos.deps.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\bin\Debug\net9.0\CalculadoraTiempos.runtimeconfig.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\bin\Debug\net9.0\CalculadoraTiempos.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\bin\Debug\net9.0\CalculadoraTiempos.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.AssemblyInfoInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.AssemblyInfo.cs
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.csproj.CoreCompileInputs.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.sourcelink.json
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\refint\CalculadoraTiempos.dll
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.pdb
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\CalculadoraTiempos.genruntimeconfig.cache
+C:\Users\Armando A\My Drive\ASU\PERSONAL APP\INGENIERIA INDUSTRIAL\CalculadoraTiempos\obj\Debug\net9.0\ref\CalculadoraTiempos.dll
